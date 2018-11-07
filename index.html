@@ -10,61 +10,76 @@
   </head>
 
   <body>
-    <div class="container">
-      <div class="text-center card">
-        <img src="images/me-big.jpeg" alt="Maxime" class="img-circle">
-        <h1>Serge</h1>
-        <h2>Un vrai champion</h2>
-        <p class="text-bottomblank">After graduating from Polytechnique School of London, I embraced coding as my new way of life</p>
-        <a href="" class="btn">See for yourself</a>
-      </div>
-
-      <div class="text-center card">
-        <ul class="list-inline" id="social-links">
-          <li><a href=""><i class="fab fa-facebook-square"></i>Facebook</a></li>
-          <li><a href=""><i class="fab fa-twitter"></i>Twitter</a></li>
-          <li><a href=""><i class="fab fa-linkedin"></i>LinkedIn</a></li>
+    <div id="sidebar">
+      <ul>
+        <li><a href="#summary">
+          <i class="far fa-file"></i>
+        </a></li>
+        <li><a href="#social-media">
+          <i class="fas fa-share-square"></i>
+        </a></li>
+        <li><a href="#movies">
+          <i class="fas fa-film"></i>
+        </a></li>
         </ul>
-      </div>
+    </div>
+    <div class="macro-container">
+      <div class="container" id="page-content">
+          <div class="text-center card" id="summary">
+            <img src="images/Serge.jpg" alt="Maxime" class="img-circle">
+            <h1>Serge</h1>
+            <h2>Un champion comme on n'en fait plus</h2>
+            <p class="text-bottomblank">After graduating from Polytechnique School of London, I embraced coding as my new way of life</p>
+            <a href="https://www.youtube.com/watch?v=gU0xr4-E8nQ" class="btn">See for yourself</a>
+          </div>
 
-      <div class="card">
-        <h2 class="text-center">My Favorite movies</h2>
-      <!--     table>tbody>(tr>td*2)*3 -->
-        <table id="movies-table">
-          <tbody>
-            <tr>
-              <td class="text-align-center">
-                <img src="images/Laverite1.jpg" alt="La verite si je mens 1">
-                <a href="http://www.allocine.fr/video/player_gen_cmedia=19443342&cfilm=12644.html" class="but-small">Bande-Annonce</a>
-              </td>
-              <td>
-                <h3>La verite si je mens 1</h3>
-                <p>Edouard Vuibert est au bout du rouleau. Victor Benzakem, entrepreneur prospère du quartier du Sentier, le prend sous son aile. Le prenant pour un juif, il décide de l'embaucher comme manutentionnaire.</p>
-              </td>
-            </tr>
-            <tr>
-              <td class="text-align-center">
-                <img src="images/Laverite2.jpg" alt="La verite si je mens 2">
-                <a href="http://www.allocine.fr/video/player_gen_cmedia=19443343&cfilm=28104.html" class="but-small">Bande-Annonce</a>
-              </td>
-              <td>
-                <h3>La verite si je mens 2</h3>
-                <p>Dans le quartier du Sentier, Eddie Vuibert, Dov et Yvan sont confrontés aux procédés pour le moins expéditifs de leur nouveau client, `Eurodiscount', une chaîne européenne d'hypermarchés.</p>
-              </td>
-            </tr>
-             <tr>
-               <td class="text-align-center">
-                 <img src="images/Laverite3.jpg" alt="La verite si je mens 3">
-                 <a href="http://www.allocine.fr/video/player_gen_cmedia=19263396&cfilm=134545.html" class="but-small">Bande-Annonce</a>
-               </td>
-               <td>
-                 <h3>La verite si je mens 3</h3>
-                 <p>Nos chaleureux amis ont migré du Sentier moribond à la banlieue florissante d'Aubervilliers. La petite bande est toujours aussi soudée, solidaire que lors des épisodes précédents, et la vie suit son cours, au gré des petits événements familiaux et des affaires.</p>
-               </td>
-             </tr>
-          </tbody>
-        </table>
-      </div>
+          <div class="text-center card" id="social-media">
+            <ul class="list-inline" id="social-links">
+              <li><a href=""><i class="fab fa-facebook-square"></i>Facebook</a></li>
+              <li><a href=""><i class="fab fa-twitter"></i>Twitter</a></li>
+              <li><a href=""><i class="fab fa-linkedin"></i>LinkedIn</a></li>
+            </ul>
+          </div>
+
+          <div class="card" id="movies">
+            <h2 class="text-center">My Favorite movies</h2>
+          <!--     table>tbody>(tr>td*2)*3 -->
+            <table id="movies-table">
+              <tbody>
+                <tr>
+                  <td class="text-align-center">
+                    <img src="images/Laverite1.jpg" alt="La verite si je mens 1">
+                    <a href="http://www.allocine.fr/video/player_gen_cmedia=19443342&cfilm=12644.html" class="but-small">Bande-Annonce</a>
+                  </td>
+                  <td>
+                    <h3>La verite si je mens 1</h3>
+                    <p>Edouard Vuibert est au bout du rouleau. Victor Benzakem, entrepreneur prospère du quartier du Sentier, le prend sous son aile. Le prenant pour un juif, il décide de l'embaucher comme manutentionnaire.</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-align-center">
+                    <img src="images/Laverite2.jpg" alt="La verite si je mens 2">
+                    <a href="http://www.allocine.fr/video/player_gen_cmedia=19443343&cfilm=28104.html" class="but-small">Bande-Annonce</a>
+                  </td>
+                  <td>
+                    <h3>La verite si je mens 2</h3>
+                    <p>Dans le quartier du Sentier, Eddie Vuibert, Dov et Yvan sont confrontés aux procédés pour le moins expéditifs de leur nouveau client, `Eurodiscount', une chaîne européenne d'hypermarchés.</p>
+                  </td>
+                </tr>
+                 <tr>
+                   <td class="text-align-center">
+                     <img src="images/Laverite3.jpg" alt="La verite si je mens 3">
+                     <a href="http://www.allocine.fr/video/player_gen_cmedia=19263396&cfilm=134545.html" class="but-small">Bande-Annonce</a>
+                   </td>
+                   <td>
+                     <h3>La verite si je mens 3</h3>
+                     <p>Nos chaleureux amis ont migré du Sentier moribond à la banlieue florissante d'Aubervilliers. La petite bande est toujours aussi soudée, solidaire que lors des épisodes précédents, et la vie suit son cours, au gré des petits événements familiaux et des affaires.</p>
+                   </td>
+                 </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
     </div>
   </body>
 </html>
