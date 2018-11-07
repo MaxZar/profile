@@ -1,0 +1,124 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400
+  color: rgb(200,200,200);
+  background-color: rgb(240,240,240);
+}
+h1,h2,h3 {
+  background-color: white;
+  color: rgb(80,80,80);
+  font-family: 'Montserrat', sans-serif;
+}
+h1{
+  color: orange;
+}
+a {
+  text-decoration: none;
+  opacity: 0.7;
+}
+a:hover {
+  opacity: 1.0
+}
+li {
+  line-height: 1.5;
+}
+
+.text-align-center {
+  padding: 10px;
+  text-align: center;
+}
+
+.container {
+  background: rgb(200,200,200);
+  padding: 35px;
+  padding-top: 10px;
+  border-radius: 4px;
+  margin: auto;
+  max-width: 800px
+}
+.card{
+  background: white;                          /* White background */
+  padding: 30px;                              /* Internal space */
+  border-radius: 4px;                         /* Small radius */
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 30px auto;
+  max-width: 1000px
+}
+
+.img-circle {
+  width: 300px;
+  border-radius: 150px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-top {
+  text-align: top;
+}
+
+.text-bottomblank {
+  margin-bottom: 30px;
+}
+
+.list-inline {
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.btn {
+  padding: 15px 20px;
+  border-radius: 5px;
+  color: white;
+  background-color: orange;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.but-small {
+  padding: 5px 5px;
+  border-radius: 1px;
+  color: black;
+  background-color: orange;
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+#movies-table img {
+  max-width: 150px;
+}
+
+#social-links li a {
+  font-size: 20px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 780px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 580px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  .img-circle {
+    width: 160px;
+    border-radius: 80px;
+}
+}
+
